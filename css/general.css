@@ -145,11 +145,24 @@ filter: alpha(opacity=95) !important;
 	color: #fff;
 	background-color:#4A90BE;
 }
+.mybutton_yellow{
+	border: 1px solid #FFFC00;
+	color: #222;
+	background-color:#FFFC00;
+}
 
 .mybutton_cyano:hover{
 	border: 1px solid #4A90BE;
 	color: #4A90BE !important;
-	background: rgba(204, 204, 204, 0);
+	background: #222;
+	/*background: rgba(204, 204, 204, 0);*/
+}
+
+.mybutton_yellow:hover{
+	border: 1px solid #FFFC00;
+	color: #FFFC00 !important;
+	/*background: rgba(204, 204, 204, 0);*/
+	background: #222;
 }
 
 .mybutton_pink{

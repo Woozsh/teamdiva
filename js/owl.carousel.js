@@ -184,7 +184,7 @@
 	 * @public
 	 */
 	Owl.Defaults = {
-		items: 5,
+		items: 3,
 		loop: false,
 		center: false,
 		rewind: true,
@@ -208,7 +208,17 @@
 		fluidSpeed: false,
 		dragEndSpeed: false,
 
-		responsive: {},
+		responsive:{
+			 0:{
+					 items:1
+			 },
+			 600:{
+					 items:2
+			 },
+			 1000:{
+					 items:3
+			 }
+	 },
 		responsiveRefreshRate: 200,
 		responsiveBaseElement: window,
 
