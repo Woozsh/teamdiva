@@ -1,6 +1,6 @@
 # Event website
 
-> 27 Mar 2017
+> 27 Mar 2017  
 > https://jordypereira.github.io/teamdiva/
 
 ## Tech Stack
